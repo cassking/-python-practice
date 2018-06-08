@@ -36,9 +36,9 @@ print(courses.index('math'))
 print('math' in nums)
 print('math' in courses)
 #foor loops
-# for item in courses:
-#     print(item)
-#
+for item in courses:
+     print(item)
+
 
 #array to string
 stringified = "   ,".join(courses_3)
@@ -49,12 +49,6 @@ new_list = stringified.split('-')
 print(new_list)
 
 #tuples and sets
-
 #access index an dvlaue
-# for index, item in enumerate(courses, start=2):
-#     print(index,item)
-
-
-
-
-#tuples and sets
+for index, item in enumerate(courses, start=2):
+     print(index,item)
