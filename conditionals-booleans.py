@@ -36,3 +36,14 @@ print(id(a) == id(b))
 
 print(id(a))#diff objects
 print(id(b))
+#in python all these eval to false
+# all else is true
+condition = False
+condition = None
+condition = 0 #numbers eval to true
+condition = () #or '', or {}, []
+
+if condition:
+    print('eval to true')
+else:
+    print('eval to false')
