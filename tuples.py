@@ -29,3 +29,13 @@ print('Math' in ess_courses)
 
 print(ess_courses.intersection(exxx_courses))
 print(ess_courses.difference(exxx_courses))
+print(ess_courses.union(exxx_courses))
+
+#empty lists and empty sets
+empty_list =[]
+empty_list = list()
+
+empty_tuple = ()
+empty_tuple = tuple()
+
+empty_set = set()
