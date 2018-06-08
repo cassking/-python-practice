@@ -17,3 +17,27 @@ print("there are only", drivers, "empty cars todya")
 print(f"athere are {passengers} passengers but only {drivers} drivers")
 print(f"rounding a number can be done with round() 1.733-> rounded is:{round(number)}")
 #.format() syntax
+
+type_people = 10
+x =f"there are {type_people} types of people"
+binary = "binary"
+do_not = "don't"
+y = f"those who know {binary} and those who {do_not}"
+
+print(x)
+print(y)
+
+#Python’s str.format() method of the string class
+#allows you to do variable substitutions and
+#value formatting. This lets you concatenate elements together within a string through positional formatting.
+
+hilarious = False
+joke_eval = "is that funny? {}"
+print(joke_eval.format(hilarious))
+print("is that funny {}".format("...maybe"))
+print("there are  {} cars in lot".format(14))
+
+
+w="left side..."
+e="right side..."
+print(w+e)
