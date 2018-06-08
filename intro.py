@@ -41,3 +41,23 @@ print("there are  {} cars in lot".format(14))
 w="left side..."
 e="right side..."
 print(w+e)
+#formatter
+
+formatter = "{} {} {} {}"
+print(formatter.format(1,2,3,4))
+print(formatter.format("coke", "pepsi", "sevenup", "rootbeer"))
+
+print(formatter.format(formatter, formatter, formatter,formatter))
+print(formatter.format(
+"this is another",
+"substituion",
+"in just strings",
+"and stuff"
+
+))
+#get methods for data type
+#print(help(str.lower))
+
+#integers, floats
+num = 3
+print(type(num))
